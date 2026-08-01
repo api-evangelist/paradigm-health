@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.paradigmhealth.ai/security-privacy-program-overview
+url: https://www.paradigmhealth.ai/security-privacy-program-overview
+# Certifications attributed to Paradigm Health's own program (third-party attested).
+# AWS infrastructure certifications (ISO 27001, PCI DSS, FedRAMP, etc.) named on the page
+# belong to AWS under the shared-responsibility model and are intentionally NOT listed as
+# Paradigm's own certifications.
+certifications:
+- SOC 2 Type 2
+- HIPAA
+frameworks:
+- NIST Cybersecurity Framework
+- NIST Risk Management Framework (SP 800-53 r5)
+notes: >-
+  Paradigm Health maintains SOC 2/Type 2 (Security, Confidentiality, Availability)
+  and HIPAA compliance with annual third-party audits, having received an unqualified
+  SOC 2/Type 2 attestation with "No Exceptions Noted". Production and lower environments
+  are hosted in a US-based AWS region (us-east-1) inside a HIPAA-enabled VPC under the
+  shared-responsibility model. No public trust portal or dedicated trust center domain
+  was found; this is the provider's published Security & Privacy Program Overview page.
+evidence:
+- source: https://www.paradigmhealth.ai/security-privacy-program-overview
+  keywords: [soc 2 type 2, hipaa, nist, security program]

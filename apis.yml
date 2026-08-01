@@ -1,8 +1,35 @@
 aid: paradigm-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paradigm-health.png
 name: Paradigm Health
-description: Paradigm Health is a company surfaced as a portfolio company of general-catalyst, gv and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Paradigm Health is an AI-native clinical trial platform connecting biopharma
+  sponsors with a research-ready provider network spanning roughly 2,100 care
+  locations across the United States. Founded in 2021 and headquartered in
+  Columbus, Ohio, the company operates infrastructure implemented at healthcare
+  provider organizations to make clinical research part of routine care. Its
+  Study Conduct platform captures data directly from electronic health records
+  and other structured and unstructured sources, algorithmically evaluates
+  FDA-defined data points in real time, and transmits the critical safety and
+  efficacy signals needed for regulatory determinations to trial sponsors and
+  the FDA. Paradigm serves both trial sponsors (protocol optimization,
+  feasibility and site selection, patient identification and enrollment, data
+  collection and delivery, post-approval evidence) and research sites. The
+  company acquired Flatiron Health's Clinical Research business, announced a
+  research collaboration with the U.S. FDA, and is backed by ARCH Venture
+  Partners, General Catalyst, and GV. Paradigm currently exposes no public API,
+  developer portal, or SDK; this profile captures its identity, legal, and
+  published security/compliance surface.
 url: https://raw.githubusercontent.com/api-evangelist/paradigm-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +40,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Clinical Trials
+- Healthcare
+- Life Sciences
+- Clinical Research
+- Health Data
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +57,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.paradigm.inc/
+  url: https://www.paradigmhealth.ai/
+- type: About
+  url: https://www.paradigmhealth.ai/about
+- type: Login
+  url: https://app.paradigm.inc/
+- type: Support
+  url: https://www.paradigmhealth.ai/contact
+- type: PrivacyPolicy
+  url: https://www.paradigmhealth.ai/privacy
+- type: Compliance
+  url: https://www.paradigmhealth.ai/security-privacy-program-overview
+- type: TrustCenter
+  url: https://www.paradigmhealth.ai/security-privacy-program-overview
+- type: DomainSecurity
+  url: security/paradigm-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
